@@ -1,0 +1,54 @@
+.tutorial-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .tutorial-text {
+    width: 45%;
+    text-align: left;
+    background-color: #e4e4e4;
+    border-radius: 12px;
+    text-align: center;
+  }
+  
+  .tutorial-text h2 {
+    font-size: 1.5rem;
+    color: #FF0100; /* Cor padrão do SENAI */
+    margin-bottom: 15px;
+  }
+  
+  .tutorial-text p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .tutorial-video {
+    width: 45%;
+    text-align: left;
+  }
+  
+  .tutorial-video h2 {
+    font-size: 1.5rem;
+    color: #FF0100;
+    margin-bottom: 15px;
+  }
+  
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+  }
+  
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  

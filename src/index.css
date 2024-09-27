@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(236, 236, 236);
+}
+
+button{
+    background-color: #FF0100;
+    font-weight: bold;
+    color: white;
+    border-radius: 12px;
+    transition: .8;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #e40000;
+}
+
+  /*Tabelas estilo*/
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2em;
+  }
+
+  th, td {
+    padding: 1.2em 2em;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+
+  thead {
+    background-color: #f74040;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }

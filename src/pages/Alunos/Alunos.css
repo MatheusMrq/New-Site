@@ -1,0 +1,74 @@
+.alunos-container {
+    padding: 20px;
+  }
+  
+  .add-aluno-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #FF0100;
+    border: none;
+
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-aluno-button:hover {
+    background-color: #c70000;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+.modal-size{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15% auto;
+  width: 600px;
+}
+
+  .modal-contenti {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    min-width: 25em;
+    min-height: 18em;
+  }
+  
+  .modal-contenti button {
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 20%;
+    min-width: 120px;
+    margin-top: 5em;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  
+  #button-close {
+    padding: .5em;
+    margin: 0;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    min-width: 40px;
+    width: 8%;
+    display: inline;
+
+  }
+
+  .div-close {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }

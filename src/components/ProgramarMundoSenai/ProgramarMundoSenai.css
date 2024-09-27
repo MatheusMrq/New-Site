@@ -1,0 +1,81 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  div .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 70%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .modal-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .modal-buttons button {
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #FF0100;
+    color: rgb(255, 255, 255);
+  }
+  
+  .modal-buttons button:hover {
+    background-color: #c70000;
+  }
+  
+  .save-button, .cancel-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .save-button {
+    background-color: #28a745;
+    color: white;
+    margin: auto;
+  }
+  
+  .cancel-button {
+    background-color: #ccc;
+    color: black;
+    margin: auto;
+  }
+  
+  .save-button:hover {
+    background-color: #218838;
+  }
+  
+  .cancel-button:hover {
+    background-color: #aaa;
+  }
+  
+  .evento-card{
+    padding: 1.5em;
+  }
+
+  .evento-card button{
+    padding: 1em;
+    font-size: 1em;
+    border-radius: 20px;
+  }

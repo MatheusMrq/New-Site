@@ -1,0 +1,81 @@
+.mundo-senai-container {
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .programar-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #FF0100;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .programar-button:hover {
+    background-color: #c70000;
+  }
+  
+  .no-event {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .eventos-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .evento-card {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .evento-card p {
+    margin: 0;
+  }
+  
+  .editar-button, .detalhes-button {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .editar-button {
+    background-color: #FFAA00;
+    color: white;
+  }
+  
+  .detalhes-button {
+    background-color: #007BFF;
+    color: white;
+  }
+  
+  .editar-button:hover {
+    background-color: #cc8800;
+  }
+  
+  .detalhes-button:hover {
+    background-color: #0056b3;
+  }
+  

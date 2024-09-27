@@ -1,0 +1,58 @@
+.adicionar-aluno-container {
+    text-align: center;
+    background-color: #e0e0e0;
+    padding: 2em;
+    border-radius: 12px;
+  }
+  
+  .adicionar-aluno-container form {
+    flex-direction: column;
+    align-items: center;
+
+    padding: 1em;
+  }
+  
+  .adicionar-aluno-container label {
+    font-weight: bold;
+    
+  }
+  
+  .adicionar-aluno-container input,
+  .adicionar-aluno-container select {
+    padding: 10px;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 15px;
+
+  }
+  
+  .adicionar-aluno-container button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .adicionar-aluno-container button[type="submit"] {
+    background-color: #FF0100;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .adicionar-aluno-container button[type="submit"]:hover {
+    background-color: #c70000;
+  }
+  
+  .adicionar-aluno-container button[type="button"] {
+    background-color: #ccc;
+    color: black;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .adicionar-aluno-container button[type="button"]:hover {
+    background-color: #aaa;
+  }
+  

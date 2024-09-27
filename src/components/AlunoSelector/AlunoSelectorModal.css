@@ -1,0 +1,65 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-contentt {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 70%;
+  max-width: 1500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.aluno-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.aluno-item {
+  background: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  flex: 1 1 45%;
+  border: 2px solid transparent;
+  transition: border-color 0.3s;
+}
+
+.aluno-item.selected {
+  border-color: #007bff;
+}
+
+.aluno-item p {
+  margin: 5px 0;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+button.save-button,
+button.cancel-button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}

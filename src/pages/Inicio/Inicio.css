@@ -1,0 +1,40 @@
+.inicio-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #FF0100; /* Cor padrão do SENAI */
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: #333;
+    max-width: 600px;
+    margin-bottom: 40px;
+  }
+  
+  .logs-button {
+    padding: 10px 20px;
+    position: fixed;
+    right: 2%;
+    top: 11%;
+    font-size: 1rem;
+    color: white;
+    background-color: #FF0100;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+  }
+  
+  .logs-button:hover {
+    background-color: #c70000;
+  }
+ 
